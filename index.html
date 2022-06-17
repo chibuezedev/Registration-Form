@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <main>
+       <img class="img" src="images/bg-intro-desktop.png" alt=""> 
+       <h2>Learn to code by<br>watching others</h2>
+       <p>See how experienced developers solve problems in real-time.<br>
+        Watching scripting tutorials is great, but understanding how<br>
+        developers think is invaluable.</p>
+      <div class="sub">
+          <h3>Try if free 7 days then $20/mo. thereafter</h3>
+        </div>
+        <div class="form">
+            <div id="success" class="suc"><h2>Form has been submitted successfully!<br></h2></div>
+            <div id="error_message"></div>
+              <form id="myform" name="form" onsubmit="return val()">
+                <div class="input_field">
+                   <input type="text" placeholder="Name" id="username">
+                   <small></small>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email" id="email">
+                    <small></small>
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Password" id="password">
+                    <small></small>
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Confirm Password" id="cpass" autocomplete="off">
+                    <small></small>
+                </div>
+                <input type="submit" value="claim your free trial" onclick="return val()">
+            </form>
+            <h6>By clicking the button you are agreeing to our <a style="color:rgb(192, 36, 36)" href="#">Terms and Services</a> </h6>
+        </div>  
+    </main>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Poppins:wght@900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+main{
+    position:absolute;
+    width: 800px;
+    height: 500px;
+    background: hsl(0, 100%, 74%);
+    margin: 100px 300px 100px;
+}
+@media (min-width: 375px) and (max-width: 900px) {
+    main {
+        position:absolute;
+        width: 400px;
+        height:  600px;
+        margin: 50px;
+    }
+}
+
+img{
+    position: relative;
+    width: 760px;
+    height: 460px;
+    margin: 30px 25px 60px;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  img{
+      position: relative;
+      width: 375px;
+      height: 560px;
+  }
+}
+h2{
+    font-size: 30px;
+    font-weight: 800px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    margin: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+h2 {
+    position: absolute;
+    margin: 0 100px;
+    font-size: 20px;
+}
+}
+
+p{
+    position:absolute;
+    color: white;
+    top: 150px;
+    margin: 100px;
+    font-size: 9px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+    p{
+        position: absolute;
+        margin:  -30px 100px;
+    }
+}
+
+.form{
+    position: absolute;
+    left: 70%;
+    top: 58%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 2%;
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+    .form{
+        position: absolute;
+        width: 80%;
+        margin: 80px -80px;
+    }
+}
+
+.form .input_field {
+    margin-bottom: 8px;
+    
+}
+
+
+.form .input_field input[type="text"],
+.form .input_field input[type="password"]{
+width: 100%;
+padding: 8px;
+}
+
+.form input[type="submit"]{
+    border:0px;
+    margin-top:15px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(65, 184, 132);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.form #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+   
+}
+
+#success{
+    display: none;
+}
+
+.sub{
+    position: absolute;
+    background-color: hsl(248, 32%, 49%);
+    top: 85px;
+    left: 385px;
+    padding: 10px 55px;
+    font-size: 10px;
+    color: white;
+    border-radius: 2%;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+.sub{
+    position: absolute;
+    left: 40px;
+    top: 240px;
+    padding: 10px 40px;
+}
+}
+h6{
+    position: absolute;
+    padding-left: 55px;
+    font-size: 5.5px;
+    padding-top: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(163, 152, 152);
+}
+h6, a{
+    text-decoration:none
+}
